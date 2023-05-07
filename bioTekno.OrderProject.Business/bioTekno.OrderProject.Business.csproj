@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\bioTekno.OrderProject.Common\bioTekno.OrderProject.Common.csproj" />
+    <ProjectReference Include="..\bioTekno.OrderProject.DataAccess\bioTekno.OrderProject.DataAccess.csproj" />
+    <ProjectReference Include="..\bioTekno.OrderProject.Dtos\bioTekno.OrderProject.Dtos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.104" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
