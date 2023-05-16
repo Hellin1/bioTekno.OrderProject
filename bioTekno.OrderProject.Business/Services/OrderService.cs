@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 namespace bioTekno.OrderProject.Business.Services
 {
     public class OrderService : IOrderService
-    {// mapper cart curt ctor repository ve içermesi gereken metodlar
+    {
 
         private readonly IUow _uow;
         private readonly IMapper _mapper;
